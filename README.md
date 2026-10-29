@@ -20,7 +20,7 @@ The demo account is shared and is not suitable for private or production use.
 - Mamdani fuzzy rule trace, membership degrees, and all 27 rules
 - Saved valuation history with search and deletion
 - Side-by-side comparison of saved players
-- Server-side session cookie and JSON-file persistence
+- Saved estimate history (JSON file locally, browser storage on GitHub Pages)
 
 ## Architecture
 
@@ -33,3 +33,4 @@ The demo account is shared and is not suitable for private or production use.
 This is a soft-computing demonstration. Score ranges, rule weights, and price sets are heuristics, and the output is not an official IPL price. Historical reference sources: [IPL official auction announcement](https://www.iplt20.com/news/article/tata-ipl-2026-player-auction-list-announced) and [NDTV Sports sold-player list](https://sports.ndtv.com/ipl-2026/auction/soldplayer).
 
 The GitHub Pages version is a static presentation demo: its shared classroom login is only a demo gate, not secure authentication, and saved valuations stay in the browser where they were entered.
+
