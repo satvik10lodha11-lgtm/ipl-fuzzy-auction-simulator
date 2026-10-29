@@ -2,6 +2,8 @@
 
 A classroom web app that demonstrates role-based player scoring and Mamdani fuzzy inference for a hypothetical IPL auction estimate. It also includes a preloaded historical reference table of the 10 highest-priced purchases from the IPL 2026 auction (held 16 December 2025).
 
+**Live presentation demo:** https://satvik10lodha11-lgtm.github.io/ipl-fuzzy-auction-simulator/
+
 ## Start
 
 1. Install Node.js if it is not already installed.
