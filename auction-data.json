@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "season": 2026,
+    "auctionDate": "16 December 2025",
+    "playersSold": 77,
+    "overseasPlayersSold": 29,
+    "totalSpend": 215.45,
+    "sourceUrl": "https://sports.ndtv.com/ipl-2026/auction/soldplayer"
+  },
+  "benchmarks": [
+    { "id": "ipl26-cameron-green", "playerName": "Cameron Green", "country": "Australia", "role": "allrounder", "team": "Kolkata Knight Riders", "actualPrice": 25.2 },
+    { "id": "ipl26-matheesha-pathirana", "playerName": "Matheesha Pathirana", "country": "Sri Lanka", "role": "bowler", "team": "Kolkata Knight Riders", "actualPrice": 18 },
+    { "id": "ipl26-prashant-veer", "playerName": "Prashant Veer", "country": "India", "role": "allrounder", "team": "Chennai Super Kings", "actualPrice": 14.2 },
+    { "id": "ipl26-kartik-sharma", "playerName": "Kartik Sharma", "country": "India", "role": "keeper", "team": "Chennai Super Kings", "actualPrice": 14.2 },
+    { "id": "ipl26-liam-livingstone", "playerName": "Liam Livingstone", "country": "England", "role": "allrounder", "team": "Sunrisers Hyderabad", "actualPrice": 13 },
+    { "id": "ipl26-mustafizur-rahman", "playerName": "Mustafizur Rahman", "country": "Bangladesh", "role": "bowler", "team": "Kolkata Knight Riders", "actualPrice": 9.2 },
+    { "id": "ipl26-josh-inglis", "playerName": "Josh Inglis", "country": "Australia", "role": "keeper", "team": "Lucknow Super Giants", "actualPrice": 8.6 },
+    { "id": "ipl26-aquib-nabi", "playerName": "Aquib Nabi", "country": "India", "role": "bowler", "team": "Delhi Capitals", "actualPrice": 8.4 },
+    { "id": "ipl26-ravi-bishnoi", "playerName": "Ravi Bishnoi", "country": "India", "role": "bowler", "team": "Rajasthan Royals", "actualPrice": 7.2 },
+    { "id": "ipl26-venkatesh-iyer", "playerName": "Venkatesh Iyer", "country": "India", "role": "allrounder", "team": "Royal Challengers Bengaluru", "actualPrice": 7 }
+  ]
+}
