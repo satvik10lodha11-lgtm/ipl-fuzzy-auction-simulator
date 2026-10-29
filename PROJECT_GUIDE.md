@@ -131,13 +131,14 @@ The output category is the Low/Fair/High/Premium set with the greatest membershi
 | Login and session API | Verifies the shared demo account and issues an HTTP-only session cookie |
 | Valuation API | Saves, lists, and deletes the signed-in analyst's valuation records |
 | JSON data store | Persists the demo account and saved valuations between server restarts |
+| Static presentation mode | Uses the browser's local storage for demo sign-in and saved valuations on GitHub Pages |
 
 ## Frontend, backend, and data storage
 
 - **Frontend:** **index.html** contains the app interface, styling, role scoring, fuzzy inference, and a static presentation mode. The browser runs the fuzzy calculations.
 - **Backend:** **server.mjs** is a Node.js server. It serves the app and implements demo login, session cookies, and API routes for saving, listing, and deleting valuations.
 - **Data storage:** There is no SQL database. In Node mode, the backend stores the seeded demo account and saved valuation records in **data/store.json** on the host computer. Historical reference records are kept in **auction-data.json**. In GitHub Pages mode, demo login and saved valuations use browser local storage, so saved estimates stay on that device and browser.
-- **Temporary form data:** Values being edited in the calculator stay in the browser until the user saves the valuation. After saving, the evaluation is sent to the backend and persisted in **data/store.json**.
+- **Temporary form data:** Values being edited in the calculator stay in the browser. When saved, Node mode sends the evaluation to the backend and persists it in **data/store.json**; GitHub Pages mode saves it in this browser's local storage.
 - **Project files:** The project code is in the project folder and ZIP archive. The generated **data/store.json** is runtime data and is not part of the code ZIP.
 
 For presentation, the static GitHub Pages deployment serves **index.html** and **auction-data.json** without depending on the local Node server or a temporary tunnel. The public classroom login is a demo gate, not secure production authentication; do not use personal or confidential information. The Node version remains available for local backend and JSON-file demonstrations.
@@ -176,3 +177,4 @@ These observed sale prices are historical reference data. They are not stored as
 ## Suggested report abstract
 
 This project presents a fuzzy logic-based IPL auction value simulator. It converts role-specific batting and bowling statistics into a normalized performance score and combines performance with team demand and player consistency. Low, medium, and high input fuzzy sets feed a 27-rule Mamdani inference system. The output fuzzy sets are aggregated and converted into a crisp estimate by centroid defuzzification, after which a selected base price is enforced as a floor. The browser model exposes membership degrees and rule activations so that the inference process is observable. The app also provides a sourced sample of IPL 2026 auction prices for historical comparison; those prices are not model inputs. The estimates remain illustrative and use heuristic ranges.
+
